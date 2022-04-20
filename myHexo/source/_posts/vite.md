@@ -1,12 +1,12 @@
 ---
 title: Vite+
+thumbnail: https://w.wallhaven.cc/full/5w/wallhaven-5w5wj8.jpg
 tags: []
 id: '318'
 categories:
   - - 前端
   - - 技术博客
 date: 2022-04-01 18:59:41
-thumbnail:https://w.wallhaven.cc/full/5w/wallhaven-5w5wj8.jpg
 ---
 
 去年的四月中旬，我快速的粗略的学习了一下TypeScript，都说ts与vue3，vite等新技术是未来的新趋势，我这学期做项目的时候，也可以的往ts这方面去靠，尝试一些新的特性，react-native都已经支持了ts，我在利用expo创建了一个基于ts的项目之后，虽然基本能看懂与ts有关的东西，但感觉在react-native方面的生态还是不够。所以我今早复习了一遍ts与es6的一些基本知识，下午尝试了vite创建vue3与ts结合的项目。然后我就开始思考他们什么时候能够变成开发主流。带着这个问题，我找寻了vue的社区，没找到答案，最终在知乎上看到了一篇博文：
