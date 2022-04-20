@@ -6,6 +6,7 @@ categories:
   - - 前端
   - - 技术博客
 date: 2022-04-08 16:29:16
+thumbnail:https://w.wallhaven.cc/full/5d/wallhaven-5d3297.jpg
 ---
 
 这里的内容极其容易弄混，先弄出一个结构图

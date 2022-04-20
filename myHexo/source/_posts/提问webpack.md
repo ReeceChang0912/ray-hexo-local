@@ -6,6 +6,7 @@ categories:
   - - 前端
   - - 技术博客
 date: 2022-03-31 17:43:58
+thumbnail:https://w.wallhaven.cc/full/x8/wallhaven-x82p2l.jpg
 ---
 
 1.  why webpack?
