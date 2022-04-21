@@ -157,22 +157,17 @@
 </nav>
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://w.wallhaven.cc/full/8x/wallhaven-8xo2x1.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >DNS</h2></a>
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://c.wallhere.com/photos/dd/5e/mechanical_keyboard_desk_deskmat_keyboards_computer_mice-2096987.jpg!d);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Tec of software</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>我之所以会对DNS产生疑问，主要因为最近我的之前购买的服务器快要到期了，我不得不迁移我的博客，因为继续使用的费用变得十分昂贵。<br>索性有github，这个yyds，git.io轻松帮助你不知博客，后面我重新购买了一个域名来解析到gitio，但是我尝试了好久，A类地址，C类地址，都弄了半天，就是没成功，最后居然是开了https才成功。那么我这是就以已经对dns与cdn产生了很大的兴趣，之前也学习过，但是忘的差不多了，今天再次学习一下。</p>
-<h3 id="一个问题"><a href="#一个问题" class="headerlink" title="一个问题"></a>一个问题</h3><p>前端有一个经典的面试题，输入URL到页面展示的过程经历了什么？<br>这里重点说一下这个DNS的问题。<br>首先先去浏览器缓存查看（chrome），如果没有，去看本机的host文件，如果没有，再去本地的DNS服务器看，我们连接校园网都会去配置的那个东西找，如果没有，再像外部继续找，那么外部在哪？<br>对我们而言，外部就是网络运营商提供的，中国移动，中国联通等。<br>那么怎么连接到外部？<br>很简单，会通过操作系统的例如，Linux GNU glibc标准库的gethostbyname函数)，调用网卡发送UDP包去请求ip地址。</p>
-<h3 id="关于DNS服务器"><a href="#关于DNS服务器" class="headerlink" title="关于DNS服务器"></a>关于DNS服务器</h3><p>先说说域名系统，我们应该从右往左看例如：<a target="_blank" rel="noopener" href="http://www.example.com/">www.example.com</a>.<br>依次是</p>
-<ol>
-<li>根域名. </li>
-<li>顶级域名 com </li>
-<li>次级域名 example 次级域名可以在域名网站上购买</li>
-<li>主机名 又叫作三级域名 就是www</li>
-</ol>
-<p>我们查找的时候也是从上往下一层层查找，全球有13个根域名服务器，10个放在美国，一个主，9个从，其他分别英国，瑞典和日本。那么是不是说我们访问都要先访问美国的根域名服务器呢？<br>答案是不是，我们的运营商服务器就搞了一些镜像，我们访问镜像就可。</p>
-<h3 id="再说说CDN"><a href="#再说说CDN" class="headerlink" title="再说说CDN"></a>再说说CDN</h3><p> 麻省理工学院的成就之一，应用数学的教授发明了这个东西。<br> 主要思路就是部署多个从服务器，缓存源主机的东西，例如视频，html等，而且是只能的缓存，不是全部copy，比如很常用的长时间缓存。<br> 这样，一个域名可能就对应了很多个ip地址，我们首先访问CDN服务器，拿到全部的CDN列表，然后访问负载均衡服务器，确定访问的具体的分布的那一个CDN服务器，然后访问具体的分布服务器。</p>
+                <h3 id="午间思考"><a href="#午间思考" class="headerlink" title="午间思考"></a>午间思考</h3><p>因为昨天忘记去做核酸，今天不得不自费出去做核酸，太不值当了。无奈今天去图书馆学习只能推迟，顺路准备在寝室小憩，躺在床上我在思考，下午干点什么。<br>3月我基本做完我觉得的毕业设计，4月初到现在我复习了一遍关于前端的基础知识，尝试了一些新的技术比如vite与ts等的结合，mbox，cypress，CI/CD,jenkings，serverless等，基本小过了一遍前端的知识。<br>做毕业设计的时候，我使用python写后端，以及去年11月学的Go，我对后端的基本理解就是返回数据与操作数据库，简单来说就是搞个接口。当然还有表的设计，对linux服务器的使用等。用serverless的话来说就是Fass，提供函数计算功能，以及数据存储功能。</p>
+<p>那么简单来说后端就是查找数据库返回数据，前端就是展示数据，那么前后端的技术亮点或者说值得注意的点应该在哪里呢？<br>我很快的想了想，后端既然是返回数据，那么就要做到返回的快，能够处理很多请求，很显然高并发与负载均衡是后端的亮点。然后就是对操作系统等底层的开发。<br>那么前端呢？前端既然是展示数据，那么就要做到与用户交互很友好，比如很快就打开网页，避免首页白屏。那亮点就是比如打更小的包，更快的打包，利用wasm等。页面的响应很敏捷，然后就是适配的问题，比如我听说过但没用过的tabbar相关的适配，毕竟咱没写过C端。页面需要很准确。然后就是像jerry说的逐渐的经验积累一种架构的思维。</p>
+<p>除了开发还有一个领域，就是算法，其实算法更多的还是为后端服务，就是提供那个计算功能嘛，比如分类，我肯定要用python训练的模型来给你产生结果数据，不能用java spring这个框架去计算，那算法很简单就是不断改进模型，提高准确率。现在运用的领域主要有搜索推荐和广告。</p>
+<p>另外就是嵌入式这方面，这个就不是我所熟悉的领域的，这方面值得注意的点是什么呢？</p>
+<p>对了，这些都有一个共同的值得去刻意训练的点，就是数据机构和设计模式，比如简单的抽离思想，能帮助你写出更漂亮的代码，或者利用一个数据结构更方便的实现你的一个功能，例如图。这个是个程序员都应该提升一下。</p>
+<p>从这些方面粗略看，感觉全栈工程师的小目标还是可以实现的。</p>
 
             </div>
 
@@ -235,8 +230,8 @@ $('.btn_click_load').click(function() {
 -->
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://example.com/2022/04/20/AboutDNS-md/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://example.com/2022/04/20/AboutDNS-md/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://example.com/2022/04/21/software/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2022/04/21/software/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 

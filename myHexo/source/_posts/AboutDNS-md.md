@@ -1,5 +1,5 @@
 ---
-title: AboutDNS.md
+title: DNS
 thumbnail: https://w.wallhaven.cc/full/8x/wallhaven-8xo2x1.jpg
 date: 2022-04-20 17:01:04
 tags:
