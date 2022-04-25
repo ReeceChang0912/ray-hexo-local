@@ -1,12 +1,12 @@
 ---
 title: 提问webpack
-thumbnail: https://w.wallhaven.cc/full/x8/wallhaven-x82p2l.jpg
 tags: []
 id: '315'
+thumbnail: https://w.wallhaven.cc/full/x8/wallhaven-x82p2l.jpg
+date: 2022-03-31 17:43:58
 categories:
   - - 前端
   - - 技术博客
-date: 2022-03-31 17:43:58
 ---
 
 1.  why webpack?
