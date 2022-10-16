@@ -6,7 +6,7 @@ categories:
   - - 前端
   - - 技术博客
 date: 2022-04-11 17:40:32
-thumbnail: https://w.wallhaven.cc/full/01/wallhaven-01qjkv.jpg
+thumbnail: http://cdn-hw-static.shanhutech.cn/bizhi/staticwp/202208/8b6499c6bd052cc405c1b244e1be6c69--3594917735.jpg
 ---
 
 很久之前，应该是大学二年级的时候，我尝试在阿里云服务器与树莓派上面部署我第一次用最原生的js与html写的页面，经历了apache，nginx等安装，还在github上找到了一个内网穿透的东西，外网可以直接我部署在我家wifi的树莓派。那是第一次对交付部署的尝试，不能说交付，因为没有测试。应该只能说是部署的尝试。

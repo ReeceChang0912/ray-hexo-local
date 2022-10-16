@@ -1,7 +1,7 @@
 ---
 layout: my
 title: loneliness
-thumbnail: https://w.wallhaven.cc/full/5w/wallhaven-5ww523.png
+thumbnail: http://cdn-hw-static.shanhutech.cn/bizhi/staticwp/202210/b7fb405265be8a2af876f5cdcec48ca9--2725930784.jpg
 date: 2022-09-25 13:32:06
 tags:
 ---
